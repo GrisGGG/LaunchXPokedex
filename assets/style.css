@@ -1,0 +1,129 @@
+:root{
+    --bg-pokedex-color:#CD5C5C;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    width: 80%;
+    height: 90%;
+}
+.row{
+    height: 100%;
+}
+.box-p{
+    background-color: var(--bg-pokedex-color);
+}
+.box-2{
+    border-radius: 40px;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.box-1, .box-3{
+    border-radius: 16px;
+    padding: 1.8rem;
+}
+.borde-1{
+    text-align: center;
+    width: 95%;
+    height: 95%;
+    box-shadow: 0px -1px 5px 5px rgba(5,4,4,0.56);
+    -webkit-box-shadow: 0px -1px 5px 5px rgba(5,4,4,0.56);
+    -moz-box-shadow: 0px -1px 5px 5px rgba(5,4,4,0.56);
+}
+.box-circles{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+.cirle-blue{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    border: .2rem solid #fff;
+    background-color: aqua;
+}
+.cirle-green{
+    position: absolute;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: .2rem solid #fff;
+    background-color: greenyellow;
+}
+.green-1{
+    left:4rem;
+}
+.green-2{
+    left:7rem;
+}
+.green-3{
+    left:10rem;
+}
+.box-img{
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+}
+#name{
+    border-radius: 16px;
+    background-color: greenyellow;
+    text-align: center;
+}
+@media (max-width:600px){
+    .container{
+        width: 90%;
+    }
+    .row{
+        height: 50vh;
+    }
+    .box-1, .box-3{
+        border-radius: 16px;
+        padding: .8rem;
+    }
+}
+/*s
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.pokedex{
+    width: 60%;
+    height: 90%;
+    border: 1px solid red;
+    position: relative;
+    
+}
+
+.box-1{
+    width: 50%;
+    height: 100%; 
+    background-color:var(--bg-pokedex-color) ;
+    border-radius: 24px 24px 24px 24px;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+.box-2{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    width: 50%;
+    height: 100%; 
+    background-color:var(--bg-pokedex-color) ;
+    border-radius: 0 24px 24px 0;
+    text-align: center;
+    padding: 2rem 2rem;
+}
