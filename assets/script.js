@@ -29,4 +29,5 @@ const pokeImage = (url) => {
 const pokeType = (url) =>{
     const typePokemon = document.getElementById("type-pokemon");
     typePokemon.innerText = url;
+    
 }
