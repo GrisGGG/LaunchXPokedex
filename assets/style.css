@@ -64,13 +64,13 @@ body{
     background-color: greenyellow;
 }
 .green-1{
-    left:4rem;
+    left:20%;
 }
 .green-2{
-    left:7rem;
+    left:35%;
 }
 .green-3{
-    left:10rem;
+    left:50%;
 }
 .box-img{
     width: 100%;
@@ -95,6 +95,8 @@ body{
 .name{
     width: 50%;
     font-size: .6rem;
+    background-color: #fff;
+    outline: none;
     
 }
 img{
@@ -135,48 +137,4 @@ h4{
         height: 95%;
         font-size: 0.4rem;
     }
-    .green-1{
-        left:2rem;
-    }
-    .green-2{
-        left:4rem;
-    }
-    .green-3{
-        left:6rem;
-    }
-}
-/*s
-body{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-.pokedex{
-    width: 60%;
-    height: 90%;
-    border: 1px solid red;
-    position: relative;
-    
-}
-
-.box-1{
-    width: 50%;
-    height: 100%; 
-    background-color:var(--bg-pokedex-color) ;
-    border-radius: 24px 24px 24px 24px;
-    text-align: center;
-    padding: 2rem 2rem;
-}
-.box-2{
-    position: absolute;
-    bottom:0;
-    right: 0;
-    width: 50%;
-    height: 100%; 
-    background-color:var(--bg-pokedex-color) ;
-    border-radius: 0 24px 24px 0;
-    text-align: center;
-    padding: 2rem 2rem;
 }
