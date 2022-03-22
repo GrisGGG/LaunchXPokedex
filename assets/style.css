@@ -48,8 +48,8 @@ body{
     position: absolute;
     left: 0;
     top: 0;
-    width: 2.8rem;
-    height: 2.8rem;
+    width: 15%;
+    height: 70%;
     border-radius: 50%;
     border: .2rem solid #fff;
     background-color: aqua;
@@ -57,8 +57,8 @@ body{
 .cirle-green{
     position: absolute;
     top: 0;
-    width: 2rem;
-    height: 2rem;
+    width: 10%;
+    height: 50%;
     border-radius: 50%;
     border: .2rem solid #fff;
     background-color: greenyellow;
@@ -94,6 +94,8 @@ body{
 }
 .name{
     width: 50%;
+    font-size: .6rem;
+    
 }
 img{
     width: 50%;
@@ -102,6 +104,7 @@ img{
 .box-green{
     width: 90%;
     height: 50%;
+    margin-top:.4rem;
     border-radius: 8px;
     background-color: green;
     
@@ -126,6 +129,15 @@ h4{
     .box-1, .box-3{
         border-radius: 16px;
         padding: .8rem;
+    }
+    h4{
+        font-size: 0.5rem;
+    }
+    .box-green{
+      
+        margin: .5rem;
+        height: 95%;
+        font-size: 0.4rem;
     }
 }
 /*s
